@@ -3,11 +3,24 @@
 <pretext>
     <article xml:id="notes">
         <section xml:id="notes-week-01">
-        <title>Week 1</title>
+        <title>Simple Sample</title>
+        <author>
+            <personname>My Name</personname>
+        </author>
+        <date>
+            January 6, 2017
+        </date><p></p>
+       <m>{\LARGE \textbf{1 Hello World!}}</m> 
+        <p></p>
         <p>
-            This week we covered the following topics:
+         <m>{\textbf{Hello World! }}</m> Today I am learning <m>\LaTeX. </m> <m>\LaTeX{} </m> is a great program for writing math. I can write in line math such as <m>a^2+b^2=c^2</m>. I can also give equations their own space.
+         <me>x^2 + y^2 = z^2</me> 
+           If I do not leave any blank lines <m>\LaTeX{}</m> will continue  this text without making it into a new paragraph.  Notice how there was no indentation in the text after equation.  
+               Also notice how even though I hit enter after that sentence and here <m>\downarrow</m>
+     <m>\LaTeX{}</m> formats the sentence without any break.  Also   look  how      it   doesn't     matter          how    many  spaces     I put     between       my    words.
+        </p><p>
+    For a new paragraph I can leave a blank space in my code. 
         </p>
-
         </section>
     </article>
 </pretext>
