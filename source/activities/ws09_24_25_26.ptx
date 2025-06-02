@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contributed by Mitch Keller -->
+<worksheet>
+  <title>9 Applications (LN 1.1, 1.2, 1.3)</title>
+  <p></p>
+  <page>
+    <p><m>{\textbf{Poll Question}}</m>:</p>
+    <p>True or false: if a matrix is upper triangular then the matrix is in echelon form.</p>
+    <m></m><p></p><m></m><p></p>
+    <m>{\large \textbf{9.1 LU Factorization}}</m>
+    <p>1. Recall the The LU Factorization of a matrix.</p>
+    <p><m>{\mathbf{Theorem}}</m>:</p>
+    <p>If <m>A</m> is an <m>m \times n</m> matrix that can be row reduced to echelon form without row exchanges,
+then <m>A = LU</m>. <m>L</m> is a lower triangular <m>m \times m</m> matrix with <m>1</m>'s on the diagonal, <m>U</m> is an
+<m>\textbf{echelon}</m> form of <m>A</m>.</p>
+<m></m><p></p><m></m><p></p>
+<p>To compute the LU:</p>
+<ol marker="(a)">
+    <li><p>Reduce <m>A</m> to <m>U</m>, if possible.</p></li>
+    <li><p>Place entries in <m>L</m> so that the same sequence of row operations reduces L to I.</p></li>
+</ol>
+    
+<p>Construct the <m>LU</m> factorization of <m>A</m> and use it to solve <m>A\vec{x} = \vec{b}</m>.</p>
+<me>A = \begin{pmatrix} 1 \amp -2 \amp 0 \\ -2 \amp 5 \amp -1 \\ 0 \amp 3 \amp 0 \end{pmatrix}, \textup{  } \vec{b} = \begin{pmatrix} 2 \\ 1 \\ 0 \end{pmatrix}</me>
+</page>
+<page>
+
+
+
+
+    
+</page>
+
+
+  </worksheet>

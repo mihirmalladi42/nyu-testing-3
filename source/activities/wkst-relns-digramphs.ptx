@@ -463,8 +463,7 @@
         <shortdescription></shortdescription>
         <prefigure xmlns="https://prefigure.org" label="2025-Worksheet-12-Ex-6-digraph">
           <diagram dimensions="(200,200)" margins="5">
-            <definition>N=6</definition>
-            <definition>f(t)=(cos(2*pi*t/N), sin(2*pi*t/N))</definition>
+            
             <coordinates bbox="(-1.4,-1.1,1.4,1.1)">
               <network directed="yes" scale="0.8"
               node-fill="#ffffff" node-stroke="black"
